@@ -2,7 +2,7 @@ from flask import Flask,render_template,request,redirect,url_for,flash
 from flask_sqlalchemy import SQLAlchemy
 import datetime
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:ngagne03@localhost/isi2'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:ngagne03@localhost/isi1'
 db = SQLAlchemy(app)
 ############################################  creation des tables#####################s#####################s#####################
                     ####################### etudiant#####################
